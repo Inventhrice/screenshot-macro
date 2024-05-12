@@ -1,7 +1,6 @@
-# Print a book from VitalSource Bookshelf to PDF
+# Screenshot-Macro 
 
-This script simulates mouse click in the next page button and takes screenshot of
-current page in the opened book.
+This script simulates a mouse click in the next page button and takes screenshot of the current page in the opened book.
 
 
 ## Usage
@@ -11,7 +10,3 @@ pip install -r requirements.txt
 python app.py top_left right_bottom next_button total_page
 # Ex: python app.py 153,78 892,990 941,537 785
 ```
-
-## GUI app (For macOS & Windows)
-
-https://github.com/plainlab/plainprinter
