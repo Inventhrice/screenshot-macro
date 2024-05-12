@@ -6,7 +6,6 @@ This script simulates a mouse click in the next page button and takes screenshot
 ## Usage
 
 ```bash
-pip install -r requirements.txt
-python app.py top_left right_bottom next_button total_page
-# Ex: python app.py 153,78 892,990 941,537 785
+screenshot_macro.exe top_left right_bottom next_button total_page file_name
+# Ex: screenshot_macro.exe 153,78 892,990 941,537 785 book.pdf
 ```
